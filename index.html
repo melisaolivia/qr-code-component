@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  
+  <script src="https://cdn.tailwindcss.com?plugins=typography,aspect-ratio"></script>
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    *{margin: 0px; padding: 0px;}
+    body {
+      font-family: 'Outfit', sans-serif;
+      background-color :hsl(212, 45%, 89%);
+      padding-top:1rem;
+  
+    }
+    .attribution { 
+      font-size: 11px; 
+      align-items: center;
+      margin-top: 1rem;
+    }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    .heading {
+      color :hsl(218, 44%, 22%) ;
+    }
+    .text {
+      color :hsl(220, 15%, 55%) ;
+    }
+  </style>
+</head>
+<body class="flex flex-col w-[100%]">  
+  <!-- "bg-hsl-206 bg-saturation-74 bg-lightness-53" -->
+  
+  <div class="py-5 mx-4 attribution flex justify-center flex-col text-center flex-warp">
+    <p class="">Improve your front-end skills by building projects
+      Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+    </p>
+    <p>
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 
+    Coded by <a href="#">Melisa Olivia</a>.
+    </p>
+  </div>
+
+ <div class="card mx-auto w-[14rem] h-[23rem] bg-white flex flex-col block my-[5rem] justify-center items-center rounded-lg shadow-lg">
+    <img class="items-center w-[200px] h-[200px] rounded-lg" src="images/image-qr-code.png" alt="">
+
+    <div class="py-5 px-4 flex flex-col text-align-center flex-wrap text-center">
+      <p class="heading text-[1rem] font-[700]">
+        Improve your front-end skills by building projects
+      </p>
+      <p class="text text-[0.7rem] font-[400] pt-2 px-2">
+        Scan the QR code to visit FrontEnd Mentor and take your coding skills to the next time
+      </p>
+    </div>
+  </div>
+  
+
+</body>
+</html>
